@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, World! This is a Flask app.Richard Change"
+    return "Hello, World! This is a Flask app.Testing"
 
 @app.route('/hello')
 def hello_v1():
